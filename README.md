@@ -20,6 +20,10 @@ Entrez comprises a lot of different databases of which Pubmed is the most releva
 
 Each entry in Pubmed can be uniquely identified using a PMID. This can be used to link a Pubmed entry with another database in Entrez. One such database that might be useful for our purposes is Pubmed central. PMC contains over 300,000 journal articles that are freely accessible. They can be bulk downloaded or programmatically downloaded using PMIDs. The only way to pull down journal articles found in Pubmed that are not in PMC is by using the Linkout functionality of the Pubmed site. This provides a link to the relevant page on ScienceDirect, Elsevier or the like. I assume parsing the subsequent XML to locate and download the pdf shouldn't be too hard but the whole process is not as easy as the above approaches.
 
+### Contentmine
+
+This also looks like an attractive option https://contentmine.github.io/
+
 ## Determining the funding origin an article
 
 spires indexes bibliographic data for nih supported publications
